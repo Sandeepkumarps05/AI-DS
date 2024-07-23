@@ -1,0 +1,23 @@
+r=int(input("Enter the number of rows:"))
+c=int(input("Enter the number of columns"))
+
+A=[]
+print("Enter the element to Matrix:")
+for i in range(r):
+    row=[]
+    for j in range(c):
+        row.append(input                                                                                               
+    A.append(row)
+
+print("Matrix")
+
+for i in range(r):
+    for j in range(c):
+        print(A[i][j], end=" ")
+    print()
+    
+print("Transpose of Matrix:")
+for i in range(c):
+    for j in range(r):
+        print(A[j][i], end = " ")
+    print()
